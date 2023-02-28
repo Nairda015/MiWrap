@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E01558D-6285-4954-94C4-6D264C7B1A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiWrap", "src\MiWrap\MiWrap.csproj", "{731345F4-F87E-4314-83EB-D4D647D0DE7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sf", "sf", "{BAE9847C-C7B5-4279-A2F9-EB10C20E69AB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{731345F4-F87E-4314-83EB-D4D647D0DE7F} = {1E01558D-6285-4954-94C4-6D264C7B1A5F}
+	EndGlobalSection
+EndGlobal
