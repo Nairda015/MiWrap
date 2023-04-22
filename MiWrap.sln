@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sf", "sf", "{BAE9847C-C7B5-
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{303E5CAC-6104-411A-B058-0F91F5029B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "examples\Calculator.Core\Calculator.Core.csproj", "{1154677B-85F6-451C-A938-6A9A2C2D41AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +23,13 @@ Global
 		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{731345F4-F87E-4314-83EB-D4D647D0DE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1154677B-85F6-451C-A938-6A9A2C2D41AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1154677B-85F6-451C-A938-6A9A2C2D41AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1154677B-85F6-451C-A938-6A9A2C2D41AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1154677B-85F6-451C-A938-6A9A2C2D41AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{731345F4-F87E-4314-83EB-D4D647D0DE7F} = {1E01558D-6285-4954-94C4-6D264C7B1A5F}
+		{1154677B-85F6-451C-A938-6A9A2C2D41AD} = {303E5CAC-6104-411A-B058-0F91F5029B80}
 	EndGlobalSection
 EndGlobal

@@ -22,7 +22,7 @@ public static class EndpointsExtensions
             .WithScopedLifetime());
     }
     
-    public static void RegisterEndpoints<T>(this IEndpointRouteBuilder endpoints)
+    public static void MapEndpoints<T>(this IEndpointRouteBuilder endpoints)
         where T : class
     {
         var assembly = Assembly.GetAssembly(typeof(T));
@@ -34,6 +34,6 @@ public static class EndpointsExtensions
             .Cast<IEndpoint>()
             .ToList();
         
-        moduleEndpoints.ForEach(x => x.RegisterEndpoint(endpoints));
+        moduleEndpoints.ForEach(x => x.MapEndpoint(endpoints));
     }
 }

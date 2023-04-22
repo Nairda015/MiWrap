@@ -4,5 +4,5 @@ namespace MiWrap;
 
 public interface IEndpoint
 {
-    void RegisterEndpoint(IEndpointRouteBuilder builder);
+    void MapEndpoint(IEndpointRouteBuilder builder);
 }
